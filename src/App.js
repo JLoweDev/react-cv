@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div>
-      <Header title='Mackerel'/>
+      <Header title='React CV App' github='https://github.com/JLoweDev/react-cv'/>
     </div>
   )
 }
