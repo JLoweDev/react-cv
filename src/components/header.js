@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaGithub, FaYoutube, FaLinkedin, FaTwitter, FaTwitch } from 'react-icons/fa'
 
-const Header = ({ title, social }) => {
+const Header = ({ title }) => {
     return (
         // Tailwind header added from https://tailwindcomponents.com/component/responsive-header
         <header>
