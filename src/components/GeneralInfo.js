@@ -3,20 +3,20 @@ import React from 'react'
 const GeneralInfo = () => {
     return (
         <div>
-            <div class="max-w-2xl mx-auto sm:px-6 lg:px-8">
+            <div class="max-w-xl mx-auto sm:px-6 lg:px-8">
                 <div class="overflow-hidden shadow-md">
-                    <div class="px-6 py-4 bg-white border-b border-gray-200 font-bold uppercase">
-                        What is Lorem Ipsum?
+                    <div class="mt-1 px-2 py-1 bg-white border-b border-gray-200 font-bold uppercase">
+                        General Information
                     </div>
-                    <div class="p-6 bg-white border-b border-gray-200">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type 
-                        specimen book.
+                    <div class="p-1 bg-white">
+                        <span>Beef</span>
                     </div>
-                    <div class="p-6 bg-white border-gray-200 text-right">
-                        <a class="bg-blue-500 shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-blue-400 rounded uppercase" 
-                            href="#">Click Me</a>
+                    <div class="p-1 bg-white border-b border-gray-200">
+                        <span>Pork</span>
+                    </div>
+                    <div class="p-3 bg-white border-gray-200 text-right">
+                        <a class="bg-indigo-600 shadow-md text-sm text-white font-bold py-2 md:px-4 px-1 hover:bg-indigo-400 rounded uppercase" 
+                            href="#">Edit Details</a>
                     </div>
                 </div>
             </div>
