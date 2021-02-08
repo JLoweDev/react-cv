@@ -9,15 +9,15 @@ const GeneralInfo = () => {
                         General Information
                     </div>
                     <div className="p-1 bg-white flex flex-row justify-between">
-                        <h1 className=''>Name:</h1>
+                        <h1 className='pr-6'>Name:</h1>
                         <p>John Smith</p>
                     </div>
                     <div className="p-1 bg-white flex flex-row justify-between">
-                        <h1>Email:</h1>
+                        <h1 className='pr-6'>Email:</h1>
                         <p>JohnSmith@gmail.com</p>
                     </div>
                     <div className="p-1 bg-white border-b border-gray-200 flex flex-row justify-between">
-                        <h1>Phone Number:</h1> 
+                        <h1 className='pr-6'>Phone Number:</h1> 
                         <p>01023734123</p>
                     </div>
                     <div className="p-3 bg-white border-gray-200 text-right">
