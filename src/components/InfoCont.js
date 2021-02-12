@@ -3,12 +3,12 @@ import GeneralInfo from './GeneralInfo'
 import EduInfo from './EduInfo'
 import PracInfo from './PracInfo'
 
-const InfoCont = () => {
+const InfoCont = ({ onToggleGeneral, onToggleEducational, onTogglePractical }) => {
     return (
         <div className='flex flex-row justify-between mt-12 mx-32'>
-            <GeneralInfo />
-            <EduInfo />
-            <PracInfo />
+            <GeneralInfo onToggle={onToggleGeneral} />
+            <EduInfo onToggle={onToggleEducational} />
+            <PracInfo onToggle={onTogglePractical} />
         </div>
     )
 }

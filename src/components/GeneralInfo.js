@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GeneralInfo = () => {
+const GeneralInfo = ({ onToggle }) => {
     return (
         <div>
             <div className="max-w-sm mx-auto sm:px-6 lg:px-8">
@@ -22,7 +22,7 @@ const GeneralInfo = () => {
                     </div>
                     <div className="p-3 bg-white border-gray-200 text-right">
                         <a className="bg-indigo-600 shadow-md text-sm text-white font-bold py-2 md:px-4 px-1 hover:bg-indigo-400 rounded uppercase" 
-                            href="#">Edit Details</a>
+                            href="#" onClick={onToggle}>Edit Details</a>
                     </div>
                 </div>
             </div>

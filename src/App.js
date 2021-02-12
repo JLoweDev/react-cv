@@ -11,7 +11,11 @@ function App() {
   return (
     <div>
       <Header title='React CV App'/>
-      <InfoCont toggleEditGeneral={showEditGeneral} toggleEditEducational={showEditEducational} toggleEditPractical={showEditPractical}/>
+      <InfoCont 
+        onToggleGeneral={() => setShowEditGeneral(!showEditGeneral)} 
+        onToggleEducational={() => setShowEditEducational(!showEditEducational)} 
+        onTogglePractical={() => setShowEditPractical(!showEditPractical)}
+      />
     </div>
   )
 }
